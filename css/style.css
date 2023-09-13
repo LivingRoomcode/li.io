@@ -1,0 +1,561 @@
+/* li {
+    list-style: none;
+} */
+
+
+/*声明字体*/
+
+
+/* @font-face {
+    font-family: electronicFont;
+    src: url(font/DS-DIGIT.TTF);
+} */
+
+.BMap_cpyCtrl {
+    display: none;
+}
+
+.anchorBL {
+    display: none;
+}
+
+
+/* 头部样式 */
+
+header {
+    /* position: relative; */
+    height: 6%;
+    width: 100%;
+    background: url(../img/head_bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-color: #003854;
+}
+
+header h1 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    /* line-height: 100%; */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 0.3rem;
+    /* padding: 0px 5px 15px 20px; */
+    /*上右下左*/
+}
+
+
+/* 中间样式 */
+
+.mainbox {
+    /* display: flex; */
+    /* min-width: 1024px;
+        max-width: 1920px; */
+    /* mask-repeat: 0 auto; */
+    /* /padding: 5rem 0.125rem; */
+    width: 100%;
+    height: 91%;
+    /* padding: 11px 11px; */
+}
+
+
+/* 底部样式 */
+
+footer {
+    /* position: relative; */
+    height: 3%;
+    width: 100%;
+    /* background: url(img/head_bg.png) no-repeat; */
+    background-size: 100% 100%;
+    background-color: #003854;
+}
+
+.areaselectdiv {
+    /* float: left; */
+    /* font-size: 0; */
+    /* 解决inline-block间隙问题 */
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: pink; */
+}
+
+.areaselectdiv h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    color: #4F5462;
+}
+
+.areaselectdiv input {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* letter-spacing: 0.02rem; */
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin 上右下左 */
+    margin: 1% 0% 1.5% 6%;
+    width: 12.5%;
+    padding: 1% 2% 1% 2%;
+    /* font-size: 1rem; */
+    /* background-color: green; */
+}
+
+.areaselectdiv button {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* font-size: 1rem; */
+    padding: 1% 2% 1% 2%;
+    margin: 1% 0% 1% 36%;
+    width: 27%;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin: 15px 0; */
+    color: #4F5462;
+    /* background-color: greenyellow; */
+}
+
+.areaselectdiv button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.dateselectdiv {
+    /* float: left; */
+    /* font-size: 0; */
+    /* 解决inline-block间隙问题 */
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.dateselectdiv h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    color: #4F5462;
+}
+
+.dateselectdiv select {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* letter-spacing: 0.02rem; */
+    /* text-align: center; */
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin 上右下左 */
+    margin: 1% 0% 1.5% 6%;
+    width: 25%;
+    padding: 1% 2% 1% 2%;
+    /* font-size: 1rem; */
+    /* background-color: green; */
+}
+
+.dateselectdiv button {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* font-size: 1rem; */
+    padding: 1% 2% 1% 2%;
+    margin: 1% 0% 1% 36%;
+    width: 27%;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin: 15px 0; */
+    color: #4F5462;
+    /* background-color: greenyellow; */
+}
+
+.dateselectdiv button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.indexselectdiv {
+    /* float: left; */
+    /* font-size: 0; */
+    /* 解决inline-block间隙问题 */
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+
+.indexselectdiv h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    color: #4F5462;
+    /* background-color: gray; */
+}
+
+.indexselectdiv select {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* letter-spacing: 0.02rem; */
+    /* text-align: center; */
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin 上右下左 */
+    margin: 1% 6% 1% 14%;
+    width: 30%;
+    padding: 1% 2% 1% 2%;
+    /* font-size: 1rem; */
+    /* background-color: green; */
+}
+
+.indexselectdiv button {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* font-size: 1rem; */
+    padding: 1% 2% 1% 2%;
+    margin: 1% 14% 1% 6%;
+    width: 27%;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin: 15px 0; */
+    color: #4F5462;
+    /* background-color: greenyellow; */
+}
+
+.indexselectdiv button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.comparedindexselectdiv {
+    /* float: left; */
+    /* font-size: 0; */
+    /* 解决inline-block间隙问题 */
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.comparedindexselectdiv h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    color: #4F5462;
+    /* background-color: gray; */
+}
+
+.comparedindexselectdiv select {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* letter-spacing: 0.02rem; */
+    /* text-align: center; */
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin 上右下左 */
+    margin: 1% 0% 0% 6%;
+    width: 25%;
+    padding: 1% 2% 1% 2%;
+    /* font-size: 1rem; */
+    /* background-color: green; */
+}
+
+.comparedindexselectdiv button {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* font-size: 1rem; */
+    padding: 1% 2% 1% 2%;
+    margin: 1% 0% 0% 6%;
+    width: 25%;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin: 15px 0; */
+    color: #4F5462;
+    /* background-color: greenyellow; */
+}
+
+.comparedindexselectdiv button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.methodselectdiv {
+    /* float: left; */
+    /* font-size: 0; */
+    /* 解决inline-block间隙问题 */
+    width: 100%;
+    height: 12%;
+    display: inline-block;
+    box-sizing: border-box;
+    /* background-color: #E9403C; */
+}
+
+.scatterviewdiv {
+    height: 88%;
+    width: 100%;
+    float: left;
+    /* background-color: aqua; */
+}
+
+.methodselectdiv h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    color: #4F5462;
+    /* background-color: gray; */
+}
+
+.methodselectdiv select {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* letter-spacing: 0.02rem; */
+    /* text-align: center; */
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin 上右下左 */
+    margin: 3% 8% 3% 14.5%;
+    width: 28%;
+    padding: 1% 2% 1% 2%;
+    /* font-size: 1rem; */
+    /* background-color: green; */
+}
+
+.methodselectdiv button {
+    /* display: block; */
+    /* font-family: "Roboto Condensed", helvetica, arial, sans-serif; */
+    /* font-size: 1rem; */
+    padding: 1% 2% 1% 2%;
+    margin: 3% 14.5% 3% 8%;
+    width: 27%;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    /* margin: 15px 0; */
+    color: #4F5462;
+    /* background-color: greenyellow; */
+}
+
+.methodselectdiv button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+
+/* 比较按钮的样式 */
+
+
+/* 按钮样式 */
+
+
+/* .btn-style1 {
+        position: absolute;
+        border: 10px solid #ffffff;
+        background: #2f54b9;
+        font-size: 18px;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 1px;
+        /* margin: 20px; */
+
+
+/* margin-top: 2px;
+        top: 10px;
+        right: 300px */
+
+
+/* } */
+
+
+/* .btn-style1 {
+        position: absolute;
+        border: 2px solid #ffffff;
+        background: #003854;
+        font-size: 12px;
+        color: #ffffff;
+        padding: 5px 5px;
+        border-radius: 3px; */
+
+
+/* margin: 20px; */
+
+
+/* margin-top: 2px; */
+
+
+/* top: 22px;
+        left: 660px;
+    } */
+
+
+/* .btn-style2 {
+        position: absolute;
+        border: 2px solid #003854;
+        font-size: 12px;
+        color: #003854;
+        padding: 5px 5px;
+        border-radius: 3px;
+        background: #ffffff; */
+
+
+/* margin: 20px; */
+
+
+/* top: 22px;
+        right: 660px;
+    } */
+
+
+/* ----- */
+
+
+/* .angle-border {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+    } */
+
+.left {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+.left_top {
+    float: left;
+    height: 55%;
+    width: 100%;
+    font-size: 0;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+}
+
+.left_bottom {
+    float: left;
+    height: 45%;
+    width: 100%;
+    font-size: 0;
+    /* box-sizing: border-box;
+    border: 1px solid #CCCCCC; */
+    /* background-color: yellow; */
+}
+
+.middle {
+    float: left;
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+}
+
+.middle_top {
+    float: left;
+    height: 65%;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.middle_bottom {
+    float: left;
+    height: 35%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.middle_bottom_top {
+    float: left;
+    height: 90%;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.middle_bottom_bottom {
+    float: left;
+    height: 10%;
+    width: 100%;
+    /* box-sizing: border-box;
+    border: 1px solid #CCCCCC; */
+}
+
+.right {
+    float: left;
+    height: 100%;
+    width: 40%;
+    /* background-color: #E9403C; */
+}
+
+.right_top {
+    float: left;
+    height: 65%;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.right_top_top {
+    float: left;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    /* background-color: pink; */
+}
+
+.right_top_bottom {
+    float: left;
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    /* background-color: pink; */
+}
+
+.right_bottom {
+    float: left;
+    height: 35%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.viewdiv {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    /* background-color: #4F5462; */
+    /* position: absolute; */
+    /* box-shadow: inset 0px 0px 30px 0px rgba(32, 116, 247, 0.3); */
+    /* background-color: rgba(14, 49, 165, 0.8); */
+    /* border: 1px solid #ddd;*/
+    /* margin: 150px auto; */
+    /* margin: 1px auto;*/
+}
